@@ -7,7 +7,7 @@ while ($opcao != 4) {
     echo "--------------------\n";
     echo "Menu: \n 01 - Adicionar nomes";
     if (count($nomes) >= 1 ) echo "\n 02 - Listar nomes ";
-    if (count($nomes) >= 2 ) echo"\n 03 - Sortear ";
+    'if (count($nomes) >= 2 ) echo"\n 03 - Sortear ";
     echo "\n 04 - Sair\n";
     echo "--------------------\n";
     $opcao = readline ('Qual a opção desejada? ');
